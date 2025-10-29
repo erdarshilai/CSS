@@ -1,0 +1,8 @@
+h1,h2,h3,h4{
+    color: orange;
+    font-size: larger;
+}
+.c1,#id1{
+    text-align: right;
+    color: blue;
+}

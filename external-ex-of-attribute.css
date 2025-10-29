@@ -1,0 +1,6 @@
+input[type="text"]{
+    background-color: chocolate;
+}
+a[target="_blank"]{
+    color: rgb(18, 226, 112);
+}
