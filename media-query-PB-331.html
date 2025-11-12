@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .t1{
+            background-color: blue;
+            width: 50%;
+        }
+        .t2{
+            background-color: green;
+            width: 50%;
+        }
+        .container{
+            display: flex;
+        }
+        @media(orientation: portrait){
+            .t1{
+                background-color: green;
+            }
+            .t2{
+                background-color: blue;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <table class="t1" border="5px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <table class="t2" border="3px">
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
